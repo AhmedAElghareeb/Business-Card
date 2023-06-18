@@ -178,6 +178,30 @@ class BusniessCardApp extends StatelessWidget
                 ),
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 85.0),
+              child: MaterialButton(
+                shape: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(20.0),
+                ),
+                height: 45,
+                color: Colors.white,
+                onPressed: ()
+                {
+                  launch("https://github.com/AhmedAElghareeb");
+                },
+                child: Container(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.link),
+                      SizedBox(width: 15,),
+                      Text("Github", style: TextStyle(fontSize: 18.0),),
+                    ],
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
