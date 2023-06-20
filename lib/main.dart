@@ -24,7 +24,7 @@ class BusniessCardApp extends StatelessWidget
               backgroundColor: Colors.white,
               child: CircleAvatar(
                 radius: 120,
-                backgroundImage: AssetImage("images/me.jpg"),
+                backgroundImage: AssetImage("images/mee.png"),
               ),
             ),
             Text(
@@ -51,154 +51,110 @@ class BusniessCardApp extends StatelessWidget
               height: 10,
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 85.0),
-              child: MaterialButton(
-                shape: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(20.0),
-                ),
-                height: 45,
-                color: Colors.white,
-                onPressed: ()
-                {
-                  launch("https://ahmed.elghareeb1166@gmail.com");
-                },
+              padding: const EdgeInsets.all(10.0),
                 child: Container(
+                  height: 40.0,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(25.0),
+                  ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(Icons.email_outlined),
                       SizedBox(width: 15,),
-                      Text("G-Mail", style: TextStyle(fontSize: 18.0),),
+                      Text("ahmed.elghareeb1166@gmail.com", style: TextStyle(fontSize: 18.0),),
                     ],
                   ),
                 ),
               ),
-            ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 85.0),
-              child: MaterialButton(
-                shape: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(20.0),
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
+              child: Container(
+                height: 40.0,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(25.0),
                 ),
-                height: 45,
-                color: Colors.white,
-                onPressed: ()
-                {
-                  FlutterPhoneDirectCaller.callNumber("+201156750391");
-                },
-                child: Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(Icons.call),
-                      SizedBox(width: 15,),
-                      Text("Phone Call", style: TextStyle(fontSize: 18.0),),
-                    ],
-                  ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.link),
+                    SizedBox(width: 15,),
+                    Text("https://www.linkedin.com \n /in/ahmed-elghareeb8/", style: TextStyle(fontSize: 18.0),),
+                  ],
                 ),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 85.0),
-              child: MaterialButton(
-                shape: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(20.0),
+              padding: const EdgeInsets.all(10.0),
+              child: Container(
+                height: 40.0,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(25.0),
                 ),
-                height: 45,
-                color: Colors.white,
-                onPressed: ()
-                {
-                  launch("https://www.linkedin.com/in/ahmed-elghareeb8/");
-                },
-                child: Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(Icons.link),
-                      SizedBox(width: 15,),
-                      Text("Linked In", style: TextStyle(fontSize: 18.0),),
-                    ],
-                  ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.link),
+                    SizedBox(width: 15,),
+                    Text("https://github.com/AhmedAElghareeb", style: TextStyle(fontSize: 18.0),),
+                  ],
                 ),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 85.0),
-              child: MaterialButton(
-                shape: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(20.0),
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
+              child: Container(
+                height: 40.0,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(25.0),
                 ),
-                height: 45,
-                color: Colors.white,
-                onPressed: ()
-                {
-                  launch("https://wa.me/+201156750391");
-                },
-                child: Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      CircleAvatar(
-                        radius: 15,
-                        backgroundColor: Colors.green,
-                        child: Icon(Icons.call, color: Colors.white,),
-                      ),
-                      SizedBox(width: 15,),
-                      Text("WhatsApp 1", style: TextStyle(fontSize: 18.0),),
-                    ],
-                  ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.call),
+                    SizedBox(width: 15,),
+                    Text("(+20) 1156750391", style: TextStyle(fontSize: 18.0),),
+                  ],
                 ),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 85.0),
-              child: MaterialButton(
-                shape: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(20.0),
+              padding: const EdgeInsets.all(10.0),
+              child: Container(
+                height: 40.0,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(25.0),
                 ),
-                height: 45,
-                color: Colors.white,
-                onPressed: ()
-                {
-                  launch("https://wa.me/+201064503827");
-                },
-                child: Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.green,
-                        radius: 15,
-                        child: Icon(Icons.call, color: Colors.white,),
-                      ),
-                      SizedBox(width: 15,),
-                      Text("WhatsApp 2", style: TextStyle(fontSize: 18.0),),
-                    ],
-                  ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CircleAvatar(backgroundColor: Colors.green, radius: 15, child: Icon(Icons.call, color: Colors.white,)),
+                    SizedBox(width: 15,),
+                    Text("01156750391", style: TextStyle(fontSize: 18.0),),
+                  ],
                 ),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 85.0),
-              child: MaterialButton(
-                shape: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(20.0),
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
+              child: Container(
+                height: 40.0,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(25.0),
                 ),
-                height: 45,
-                color: Colors.white,
-                onPressed: ()
-                {
-                  launch("https://github.com/AhmedAElghareeb");
-                },
-                child: Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(Icons.link),
-                      SizedBox(width: 15,),
-                      Text("Github", style: TextStyle(fontSize: 18.0),),
-                    ],
-                  ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CircleAvatar(backgroundColor: Colors.green, radius: 15, child: Icon(Icons.call, color: Colors.white,)),
+                    SizedBox(width: 15,),
+                    Text("01156750391", style: TextStyle(fontSize: 18.0),),
+                  ],
                 ),
               ),
             ),
