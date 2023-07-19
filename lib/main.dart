@@ -153,7 +153,7 @@ class BusniessCardApp extends StatelessWidget
                   children: [
                     CircleAvatar(backgroundColor: Colors.green, radius: 15, child: Icon(Icons.call, color: Colors.white,)),
                     SizedBox(width: 15,),
-                    Text("01156750391", style: TextStyle(fontSize: 18.0),),
+                    Text("01064503827", style: TextStyle(fontSize: 18.0),),
                   ],
                 ),
               ),
