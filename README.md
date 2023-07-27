@@ -1,3 +1,4 @@
+![app photo](https://github.com/AhmedAElghareeb/Simple-Business-Card/assets/112869283/df5045de-d406-4698-baa9-9c6f5a8ab421)
 # busniess_card_app
 
 A new Flutter project.
